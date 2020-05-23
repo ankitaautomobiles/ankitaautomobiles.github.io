@@ -170,7 +170,7 @@
 								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
 							</div>
 						</div>
-						<div class="g-recaptcha" data-sitekey="6LfiN5sUAAAAAKM1ukyVNWRqw1QX0Z3svXFJA40c"></div><br>
+						<div class="g-recaptcha" data-sitekey="6LePR_sUAAAAAJxhqkXnF8ApVuf7xtf_vd9ylHPW"></div><br>
 						<div class="form-group text-center">
 							<input type="submit" value="Send Message" class="btn btn-primary">
 						</div>
@@ -255,7 +255,13 @@
 	<script src="js/google_map.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-
+<script type="text/javascript">
+      var onloadCallback = function() {
+        grecaptcha.render('html_element', {
+          'sitekey' : '6LePR_sUAAAAACrIZuSUQ2CxrvMZM84ulLGlgO4S'
+        });
+      };
+    </script>
 	</body>
 </html>
 
